@@ -102,7 +102,7 @@ public class GameplayManagerScript : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             Debug.Log("GAME OVER");
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
     }
     
